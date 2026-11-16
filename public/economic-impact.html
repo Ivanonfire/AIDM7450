@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economic Impact | NightPulse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body data-page="economic-impact">
+
+<header class="navbar">
+    <div class="nav-left">
+        <a href="index.html" class="logo">
+            <img src="Logo_website.svg" alt="NightPulse Hong Kong" class="site-logo-img">
+        </a>
+    </div>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+    <nav class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="whats-happening.html">What's Happening</a>
+        <a href="night-culture.html">Night Culture</a>
+        <a href="economic-impact.html" class="active">Economic Impact</a>
+        <a href="venues.html">Venues</a>
+    </nav>
+</header>
+
+<section class="page-hero hero4">
+    <div class="hero-content">
+        <p class="eyebrow">Economy</p>
+        <h1>What the nights return</h1>
+        <p>Tourism spend, hotel nights, and the illustrative value attached to each programme.</p>
+    </div>
+</section>
+
+<main class="main-container">
+    <div class="metrics-bar">
+        <div class="metric-card">
+            <i class="fa-solid fa-sack-dollar"></i>
+            <span class="metric-value">HK$4.3B</span>
+            <span class="metric-label">Projected Q4 economic value</span>
+        </div>
+        <div class="metric-card">
+            <i class="fa-solid fa-passport"></i>
+            <span class="metric-value">+28.4%</span>
+            <span class="metric-label">Overnight inbound tourist spend</span>
+        </div>
+        <div class="metric-card">
+            <i class="fa-solid fa-hotel"></i>
+            <span class="metric-value">91.5%</span>
+            <span class="metric-label">Harbourfront hotel occupancy</span>
+        </div>
+    </div>
+    <p class="metrics-note">The headline figures and the bars below are illustrative placeholders from the student prototype. They are not official statistics and are not added into a city-wide total.</p>
+
+    <div class="chart-grid">
+        <article class="chart-card">
+            <h2>Illustrative spend</h2>
+            <p>Only events with a prototype dollar figure are drawn. The rest stay as “Not estimated”.</p>
+            <div id="spend-chart"></div>
+        </article>
+        <article class="chart-card">
+            <h2>Nights by category</h2>
+            <div id="category-chart"></div>
+        </article>
+    </div>
+    <div class="section-title">Read the numbers</div>
+    <div id="economy-table"></div>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-brand">
+        <p class="eyebrow">NightPulse</p>
+        <h2>Discover Hong Kong. Anytime.</h2>
+    </div>
+    <div class="footer-container">
+        <div class="footer-col">
+            <h3>Connect</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h3>Explore</h3>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="whats-happening.html">What's Happening</a></li>
+                <li><a href="night-culture.html">Night Culture</a></li>
+                <li><a href="venues.html">Venues</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Get in Touch</h3>
+            <ul class="footer-links">
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Sponsorship Opportunities</a></li>
+                <li><a href="#">Chat With Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="legal-links">
+            <a href="#">Site Map</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Personal Information Collection Statement</a>
+        </div>
+        <div class="copyright">Copyright &copy; 2026 AIDM7450 Group F. All Rights Reserved.</div>
+    </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

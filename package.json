@@ -1,0 +1,18 @@
+{
+  "name": "aidm7450-nightpulse-website",
+  "version": "1.0.0",
+  "description": "AIDM7450 Group F — Tracking Hong Kong's Event Economy and Nighttime Culture (NightPulse)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mongodb": "^6.20.0"
+  },
+  "private": true
+}
